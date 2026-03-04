@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Mariado Schools Arusha</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .contact-container { display: flex; flex-wrap: wrap; gap: 40px; padding: 60px 10%; }
+        .contact-info { flex: 1; min-width: 300px; }
+        .contact-form { flex: 1; min-width: 300px; background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        
+        .directory-card { background: #f4f4f4; padding: 20px; border-radius: 8px; margin-bottom: 20px; border-left: 5px solid #002147; }
+        .directory-card h4 { color: #002147; margin-bottom: 5px; }
+        .directory-card p { font-weight: 600; color: #D4AF37; }
+
+        /* Form Styling */
+        .form-group { margin-bottom: 15px; }
+        .form-group label { display: block; margin-bottom: 5px; font-weight: 600; }
+        .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-family: inherit; }
+        .submit-btn { background: #002147; color: white; border: none; padding: 12px 25px; border-radius: 5px; cursor: pointer; font-weight: bold; width: 100%; transition: 0.3s; }
+        .submit-btn:hover { background: #D4AF37; color: #002147; }
+
+        .map-container { width: 100%; padding: 0 10%; margin-bottom: 50px; }
+        .map-container iframe { width: 100%; border-radius: 10px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo"><h1>MARIADO <span>SCHOOLS</span></h1></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events-life.html">Events</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" style="height: 30vh; background: #002147;">
+        <div class="hero-text">
+            <h1>Get In Touch</h1>
+            <p>We are located in Usa River, Arusha</p>
+        </div>
+    </section>
+
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>Contact Directory</h2>
+            <p>Reach out to the specific department you need:</p>
+            <br>
+            <div class="directory-card">
+                <h4>Inquiries & Applications</h4>
+                <p>📞 +255 767 559 329</p>
+            </div>
+            <div class="directory-card">
+                <h4>Administration</h4>
+                <p>📞 +255 767 796 262</p>
+            </div>
+            <div class="directory-card">
+                <h4>Head of School</h4>
+                <p>📞 +255 715 796 262</p>
+            </div>
+            <div class="directory-card">
+                <h4>Email Address</h4>
+                <p>✉️ mariadoschools@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h3>Send us a Message</h3>
+            <p>Fill out the form below and we will get back to you.</p>
+            <br>
+            <form action="mailto:mariadoschools@gmail.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label>Phone Number</label>
+                    <input type="tel" name="phone" placeholder="+255..." required>
+                </div>
+                <div class="form-group">
+                    <label>Interested Level</label>
+                    <select name="school_level">
+                        <option value="nursery">Nursery School</option>
+                        <option value="primary">Primary School</option>
+                        <option value="secondary">Secondary School (O-Level)</option>
+                        <option value="highschool">High School (A-Level)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>What do you want to know?</label>
+                    <textarea name="message" rows="4" placeholder="Your questions..." required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="map-container">
+        <h3>Our Location</h3>
+        <p>Usa River, Arusha, Tanzania</p>
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.72141973908!2d36.8428492758826!3d-3.3836212411516053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x183711dd7b95862f%3A0x9159f588224d0aad!2sMariado%20Schools!5e0!3m2!1sen!2stz!4v1709500000000!5m2!1sen!2stz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+</body>
+</html>
