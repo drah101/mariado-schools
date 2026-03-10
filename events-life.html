@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life at Mariado | Events & Extra-Curriculars</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .event-section { padding: 50px 10%; }
+        .activities-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0; }
+        .activity-card { background: #fff; padding: 20px; border-radius: 10px; border-left: 4px solid #002147; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        .activity-card h4 { color: #D4AF37; margin-bottom: 10px; }
+        
+        .donor-highlight { background: #fdf8e6; border: 2px dashed #D4AF37; padding: 40px; border-radius: 15px; margin-top: 40px; text-align: center; }
+        .donor-highlight h2 { color: #002147; }
+        
+        .sports-tag { display: inline-block; background: #002147; color: white; padding: 5px 15px; border-radius: 20px; margin: 5px; font-size: 0.9rem; }
+        
+        .upcoming-events { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        .upcoming-events th { background: #002147; color: white; text-align: left; padding: 12px; }
+        .upcoming-events td { padding: 12px; border-bottom: 1px solid #ddd; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo"><h1>MARIADO <span>SCHOOLS</span></h1></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="btn-contact">Get Involved</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" style="height: 40vh; background: linear-gradient(rgba(0,33,71,0.6), rgba(0,33,71,0.6)), url('https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&q=80&w=1000');">
+        <div class="hero-text">
+            <h1>Events & Student Life</h1>
+            <p>Developing Talents, Leadership, and Compassion</p>
+        </div>
+    </section>
+
+    <section class="event-section">
+        <h2>Intellectual & Social Activities</h2>
+        <p>Education at Mariado extends far beyond the classroom. We provide platforms for students to find their voices and lead their peers.</p>
+        
+        <div class="activities-grid">
+            <div class="activity-card">
+                <h4>Debates & Academic Clubs</h4>
+                <p>Sharpening critical thinking and public speaking through regular inter-school and internal competitions.</p>
+            </div>
+            <div class="activity-card">
+                <h4>Morning Talks</h4>
+                <p>A daily tradition where students and staff share insights, spiritual encouragement, and life lessons.</p>
+            </div>
+            <div class="activity-card">
+                <h4>Sports & Games</h4>
+                <p>Physical fitness and teamwork are prioritized. Our students excel in:</p>
+                <span class="sports-tag">Football</span>
+                <span class="sports-tag">Netball</span>
+                <span class="sports-tag">Basketball</span>
+                <span class="sports-tag">Volleyball</span>
+            </div>
+        </div>
+
+        <h3>Upcoming School Events</h3>
+        <table class="upcoming-events">
+            <thead>
+                <tr>
+                    <th>Event</th>
+                    <th>Description</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Inaugural Debate Tournament</td>
+                    <td>Inter-house academic competition</td>
+                    <td>TBA</td>
+                </tr>
+                <tr>
+                    <td>Sports Bonanza</td>
+                    <td>Football and Volleyball finals</td>
+                    <td>Coming Soon</td>
+                </tr>
+                <tr>
+                    <td>Graduation Ceremony</td>
+                    <td>Celebrating our Class of Excellence</td>
+                    <td>Annual Event</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="donor-highlight">
+            <h2>The Mariado Care Program</h2>
+            <p>We are proud to host students sponsored by generous donors from within Tanzania and around the world. We offer comprehensive care and equal opportunities to all sponsored students, ensuring they have the tools to succeed regardless of their background.</p>
+            <p><em>"We don't just teach; we provide a family for every child."</em></p>
+        </div>
+    </section>
+
+</body>
+</html>
